@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  height: 100vh;
+  background-color: #fff7f1;
+}
+.wrapper {
+  background-color: #ffffff;
+  padding: 5em 4em;
+  position: absolute;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+  box-shadow: 0 1.5em 3em rgba(3, 21, 55, 0.3);
+}
+#userInput {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ff6868;
+  padding: 0.5em 1em;
+  font-size: 18px;
+  text-transform: uppercase;
+  outline: none;
+  color: #2a2a2a;
+}
+.options {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+select {
+  appearance: none;
+  width: 8em;
+  padding: 0.45em 0.9em;
+  font-size: 1.25em;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: #ff6868;
+  border: none;
+  color: #ffffff;
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-size: 1.1em;
+  background-position: 6em;
+  outline: none;
+  border-radius: 0.3em;
+}
+select::-ms-expand {
+  display: none;
+}
+select option {
+  background-color: #ffffff;
+  color: #ff6868;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-size: 1.12em;
+}
+.selected {
+  display: none;
+}
+.color-inp {
+  appearance: none;
+  background-color: transparent;
+  width: 3.1em;
+  height: 3.4em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.color-inp::-webkit-color-swatch {
+  border-radius: 0.3em;
+  border: 0.18em solid #ff6868;
+}
+.color-inp::-moz-color-swatch {
+  border-radius: 0.3em;
+  border: 0.18em solid #ff6868;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.box button,
+.box a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0.8em 2em;
+  border-radius: 0.5em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+.box button:disabled {
+  background-color: #ff6868;
+  color: #fff;
+}
+.box button {
+  background-color: transparent;
+  color: #ff6868;
+  border: 0.18em solid #ff6868;
+}
+.box a {
+  background-color: #ff6868;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0.18em solid #ff6868;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8em;
+}
+.hide {
+  display: none;
+}

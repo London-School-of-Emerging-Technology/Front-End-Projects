@@ -1,0 +1,17 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: linear-gradient(45deg, #6420aa, #ff3ea5);
+  overflow: hidden;
+}
+.conts {
+  background: #fff;
+  width: 760px;
+  height: 845px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+#board {
+  background-color: black;
+}
